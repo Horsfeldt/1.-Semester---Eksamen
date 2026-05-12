@@ -44,20 +44,6 @@ ul li a {
     padding-bottom: 25px;
 }
 
-.container{
-    display: flex;
-    justify-content: row;
-    justify-content: center;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.picture img{
-    width: 400px;
-}
 
 .footer{
     background-color: #DACDBF;
