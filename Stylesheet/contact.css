@@ -44,16 +44,69 @@ ul li a {
     padding-bottom: 25px;
 }
 
+.container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas: 
+    "name name name"
+    "email email email"
+    "subject subject subject"
+    "message message message";
+    justify-content: center;
+    gap: 5px;
+}
+
+.name{
+    width: 400px;
+    height: 30px;
+    border: solid black;
+    grid-area: name;
+}
+
+.email{
+    width: 400px;
+    height: 40px;
+    border: solid black;
+    grid-area: email;
+}
+
+.subject{
+    width: 400px;
+    height: 40px;
+    border: solid black;
+    grid-area: subject;
+}
+
+.message{
+    border: solid black;
+    width: 400px;
+    height: 200px;
+    grid-area: message;
+}
+
+.send{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.send button{
+    width: 60px;
+    height: auto;
+}
+
+
+
 
 .footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     background-color: #DACDBF;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px;
-    padding-left: 15px;
     font-size: larger;
 }
 
