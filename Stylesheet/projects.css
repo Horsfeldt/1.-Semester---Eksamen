@@ -16,9 +16,8 @@ ul{
     gap: 60px;
     background-color: #DACDBF;
     font-size: x-large;
-    padding-right: 20px;
     height: 75px;
-    
+    padding-right: 20px;
 }
 ul li a {
     color: black;
@@ -43,31 +42,17 @@ ul li a {
     padding-bottom: 25px;
 }
 
-.container{
-    display: flex;
-    justify-content: row;
+
+.projekter{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: 
+    "projekt1 projekt2 projekt3"
+    "projekt4 projekt5 projekt6";
     justify-content: center;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 200px;
 }
-
-.picture img{
-    width: 400px;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
