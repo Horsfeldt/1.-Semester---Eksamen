@@ -55,14 +55,16 @@ ul li a {
 }
 
 .picture{
+    position: inherit;
     width: 400px;
     height: auto;
     margin-left: auto;
-    margin-right: 216px;
+    margin-right: 147px;
     margin-bottom: 20px;
 }
 
 .projekter{
+    position: relative;
     margin-bottom: 50px;
     margin-top: 50px;
     display: grid;
@@ -70,7 +72,7 @@ ul li a {
     "projekt1 projekt2 projekt3"
     "projekt4 projekt5 projekt6";
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
 }
 
 .footer{
