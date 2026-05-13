@@ -7,6 +7,12 @@ body{
 background-color: #F4EDEA;
 }
 
+hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
 ul{
     color: black;
     list-style-type: none;
@@ -46,13 +52,23 @@ ul li a {
 .text{
     display: flex;
     flex-direction: column;
-    gap: 75px;
     margin-left: 235px;
 }
 
 .overskrift{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
+}
+
+.underoverskrift{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.indhold{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
 }
 
 .picture{
