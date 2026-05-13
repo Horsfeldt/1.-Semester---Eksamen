@@ -18,10 +18,11 @@ ul{
     font-size: x-large;
     padding-right: 20px;
     height: 75px;
-    
+    background: linear-gradient(to bottom, #DACDBF 60px, #F4EDEA);
 }
 ul li a {
     color: black;
+    text-decoration: none;
 }
 
 .logo{
@@ -31,8 +32,8 @@ ul li a {
 
 .kontakt{
         background-color: #F4EDEA;
-        border-radius: 30%;
         padding: 10px 10px;
+        border: solid black, 1px;
 }
 
 .container{
@@ -87,6 +88,7 @@ ul li a {
     justify-content: space-between;
     align-items: center;
     font-size: larger;
+    background: linear-gradient(to top, #DACDBF 60px, #F4EDEA);
 }
 
 .myname{
@@ -106,5 +108,6 @@ ul li a {
 
 .contact{
     color: black;
+    text-decoration: none;
 }
 
