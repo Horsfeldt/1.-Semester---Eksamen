@@ -81,7 +81,6 @@ ul li a {
 }
 
 .projekter{
-    position: relative;
     margin-bottom: 50px;
     margin-top: 50px;
     display: grid;
@@ -90,6 +89,32 @@ ul li a {
     "projekt4 projekt5 projekt6";
     justify-content: center;
     gap: 100px;
+}
+
+.projekter div{
+    width: 330px;
+    height: 256px;
+    border: solid black;
+}
+
+
+
+.projekt1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.projekt2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.projekt3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .footer{
