@@ -94,24 +94,22 @@ ul li a {
 .projekter div{
     width: 330px;
     height: 256px;
-    border: solid black;
+}
+
+.projekter button{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    background-color: #F4EDEA;
+}
+
+.projekter button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 
-
-.projekt1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.projekt2 video{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.projekt3 img{
+.projekt1 img, .projekt2 video, .projekt3 img, .projekt4 img, .projekt5 img, .projekt6 img{
     width: 100%;
     height: 100%;
     object-fit: contain;

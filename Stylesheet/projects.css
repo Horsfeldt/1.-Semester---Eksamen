@@ -63,6 +63,29 @@ ul li a {
     gap: 170px;
 }
 
+.projekter div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 370px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 20px;
+}
+
+.projekt1 img, .projekt2 video, .projekt3 img, .projekt4 img, .projekt5 img, .projekt6 img{
+    width: 100%;
+    height: 75%;
+    object-fit: contain;
+}
+
+.projekt1 p, .projekt2 p, .projekt3 p, .projekt4 p, .projekt5 p, .projekt6 p{
+    width: 80%;
+   height: 10%;
+   object-fit: contain;
+}
+
 
 
 
