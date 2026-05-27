@@ -1,3 +1,7 @@
+/* =========================
+   ORIGINAL CSS
+========================= */
+
 * {
     padding:0;
     margin:0;
@@ -38,9 +42,11 @@ ul li a {
 }
 
 .kontakt{
-        background-color: #F4EDEA;
-        padding: 10px 10px;
+    background-color: #F4EDEA;
+        padding: 5px 5px;
         border: solid black, 1px;
+        width: 100px;
+        height: 50px;
 }
 
 .overskrift{
@@ -81,25 +87,11 @@ ul li a {
     flex-direction: column;
 }
 
-
 .programs img{
     margin-top: 10px;
     width: 60px;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer{
     position: relative;
@@ -124,6 +116,7 @@ ul li a {
     width: 50px;
     height: auto;
 }
+
 .instagram img{
     padding-top: 5px;
     width: 50px;
@@ -134,4 +127,78 @@ ul li a {
 .contact{
     color: black;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+
+    ul{
+        justify-content: center;
+        gap: 5px;
+        height: auto;
+    }
+
+    .logo{
+        margin-right: 0;
+    }
+
+    .kontakt{
+        font-size: 20px;
+    }
+
+    .overskrift{
+        font-size: 32px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .picture img{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .experience{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .programs img{
+        width: 50px;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .myname{
+        padding-left: 0;
+    }
+
+    .instagram img{
+        padding-right: 0;
+    }
+
 }

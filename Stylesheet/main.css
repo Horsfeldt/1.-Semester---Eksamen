@@ -39,8 +39,10 @@ ul li a {
 
 .kontakt{
         background-color: #F4EDEA;
-        padding: 10px 10px;
+        padding: 5px 5px;
         border: solid black, 1px;
+        width: 100px;
+        height: 50px;
 }
 
 .container{
@@ -153,3 +155,93 @@ ul li a {
     text-decoration: none;
 }
 
+@media (max-width: 768px){
+
+    ul{
+        justify-content: center;
+        gap: 5px;
+        height: auto;
+    }
+
+    .logo{
+        margin-right: 0;
+    }
+
+    .kontakt{
+        font-size: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .text{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .overskrift{
+        font-size: 32px;
+    }
+
+    .underoverskrift{
+        font-size: 24px;
+    }
+
+    .indhold{
+        font-size: 18px;
+    }
+
+    .picture{
+        width: 80%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .projekter{
+        grid-template-areas:
+        "projekt1"
+        "projekt2"
+        "projekt3"
+        "projekt4"
+        "projekt5"
+        "projekt6";
+
+        gap: 40px;
+    }
+
+    
+
+    .projekter div{
+        width: 280px;
+        height: 300px;
+
+    }
+
+    .projekt1 img, .projekt2 video, .projekt3 img, .projekt4 img, .projekt5 img, .projekt6 img{
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .myname{
+        padding-left: 0;
+    }
+
+    .instagram img{
+        padding-right: 0;
+    }
+
+}

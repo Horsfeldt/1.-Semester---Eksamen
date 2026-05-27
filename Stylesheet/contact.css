@@ -26,6 +26,7 @@ ul{
     padding-right: 20px;
     background: linear-gradient(to bottom, #DACDBF 60px, #F4EDEA);
 }
+
 ul li a {
     color: black;
     text-decoration: none;
@@ -38,8 +39,10 @@ ul li a {
 
 .kontakt{
         background-color: #F4EDEA;
-        padding: 10px 10px;
+        padding: 5px 5px;
         border: solid black, 1px;
+        width: 100px;
+        height: 50px;
 }
 
 .overskrift{
@@ -92,13 +95,11 @@ ul li a {
     display: flex;
     justify-content: center;
 }
+
 .send button{
     width: 60px;
     height: auto;
 }
-
-
-
 
 .footer{
     position: absolute;
@@ -125,6 +126,7 @@ ul li a {
     height: auto;
     grid-area: symbols;
 }
+
 .instagram img{
     padding-top: 5px;
     width: 50px;
@@ -136,4 +138,69 @@ ul li a {
     color: black;
     text-decoration: none;
     grid-area: contact;
+}
+
+
+@media (max-width: 768px){
+
+    ul{
+        justify-content: center;
+        gap: 5px;
+        height: auto;
+    }
+
+    .logo{
+        margin-right: 0;
+    }
+
+    .kontakt{
+        font-size: 20px;
+    }
+
+    .overskrift{
+        font-size: 32px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .name, .email, .subject, .message{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .message{
+        height: 180px;
+    }
+
+    .send button{
+        width: 80px;
+        height: 35px;
+    }
+
+    .footer{
+        position: relative;
+
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 10px;
+
+        padding: 20px 0;
+    }
+
+    .facebook img, .instagram img{
+        width: 40px;
+    }
+
 }
