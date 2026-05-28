@@ -14,9 +14,11 @@
 </head>
 <body>
     <ul class="header">
-        <a class="logo" href="index.html">
-             <img class="logo" src="pictures/logo.png" alt="Logo">
-         </a>    
+        <li class="logo-item">
+            <a href="index.html">
+                <img class="logo" src="pictures/logo.png" alt="Logo">
+            </a>
+        </li>
         <li><a href="projekter.html">Projekter</a></li>
         <li><a href="ommig.html">Om mig</a></li>
         <li class="kontakt"><a href="kontakt.html">Kontakt mig</a></li>
@@ -25,7 +27,7 @@
     <div class="container">
         <div class="text">
             <div class="overskrift"> <h1>Nikolas Vinther Horsfeldt</h1></div>
-            <div class="underoverskrift"> <h3>Multimedie Designer</h3></div>
+            <div class="underoverskrift"> <h2>Multimedie Designer</h2></div>
             <div class="indhold"> <p>Jeg er en multimedie designer studerende. <br> jeg vil gerne hjælpe dig med at skabe flotte og funktionelle digitale løsninger.</p></div>
         </div>
         <img class="picture" src="pictures/photoshoot-(1of1).jpg" alt="PhotoOfMe">
@@ -33,28 +35,32 @@
     <hr>
 
     <div class="projekter">
-        <button onclick="window.location.href='projekter.html'">
-        <div class="projekt1"> <img src="pictures/portræt.jpg" alt="Portræt"></div>
-        </button>
-        <button onclick="window.location.href='projekter.html'">
-            <div class="projekt2" >
-                <video autoplay muted loop>
-                    <source src="videos/blækvard-animation.mp4" type="video/mp4">
-                </video>
-            </div>
-        </button>
-        <button onclick="window.location.href='projekter.html'">
-            <div class="projekt3"> <img src="pictures/gade-edited.jpg" alt="Gadebillede"> </div>
-        </button>
-        <button onclick="window.location.href='projekter.html'">
-            <div class="projekt4"> <img src="pictures/terzetto-typografi-edited.jpg" alt="Terzetto typografi"> </div>
-        </button>
-        <button onclick="window.location.href='projekter.html'">
-            <div class="projekt5"> <img src="pictures/reklame.jpg" alt="Reklame"> </div>
-        </button>
-        <button onclick="window.location.href='projekter.html'">
-            <div class="projekt6"> <img src="pictures/sky-typografi-edited.jpg" alt="Sky typografi"> </div>
-        </button>
+
+    <button class="projekt1" onclick="window.location.href='projekter.html'">
+         <img src="pictures/portræt.jpg" alt="Portræt">
+    </button>
+
+    <button class="projekt2" onclick="window.location.href='projekter.html'">
+        <video autoplay muted loop>
+            <source src="videos/blækvard-animation.mp4" type="video/mp4">
+        </video>
+    </button>
+
+    <button class="projekt3" onclick="window.location.href='projekter.html'">
+        <img src="pictures/gade-edited.jpg" alt="Gadebillede">
+    </button>
+
+    <button class="projekt4" onclick="window.location.href='projekter.html'">
+        <img src="pictures/terzetto-typografi-edited.jpg" alt="Terzetto typografi">
+    </button>
+
+    <button class="projekt5" onclick="window.location.href='projekter.html'">
+        <img src="pictures/reklame.jpg" alt="Reklame">
+    </button>
+
+    <button class="projekt6" onclick="window.location.href='projekter.html'">
+        <img src="pictures/sky-typografi-edited.jpg" alt="Sky typografi">
+    </button>
     </div>
     
     <div class="footer">

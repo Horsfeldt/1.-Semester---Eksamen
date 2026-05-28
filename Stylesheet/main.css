@@ -14,13 +14,12 @@ hr{
     border: none;
 }
 
-ul{
+ul {
     color: black;
     list-style-type: none;
     display: flex;
-    flex-direction: row;  
-    align-items: center;
     gap: 60px;
+    align-items: center;
     background-color: #DACDBF;
     font-size: x-large;
     padding-right: 20px;
@@ -30,17 +29,22 @@ ul{
 ul li a {
     color: black;
     text-decoration: none;
+    margin-left: auto;
+}
+
+.logo-item{
+    margin-right: auto;
 }
 
 .logo{
     width: 100px;
-    margin-right: auto;
+    display: block;
 }
 
 .kontakt{
         background-color: #F4EDEA;
         padding: 5px 5px;
-        border: solid black, 1px;
+        border: solid black 1px;
         width: 100px;
         height: 50px;
 }
@@ -96,16 +100,15 @@ ul li a {
     gap: 100px;
 }
 
-.projekter div{
-    width: 330px;
-    height: 256px;
-}
+
 
 .projekter button{
     border-radius: 20px;
     border: none;
     box-shadow: 3px 3px 5px black;
     background-color: #F4EDEA;
+    width: 330px;
+    height: 256px;
 }
 
 .projekter button:hover{
