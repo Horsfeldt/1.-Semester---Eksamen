@@ -91,6 +91,7 @@ ul li a {
     width: 400px;
     height: 200px;
     grid-area: message;
+    align-items:baseline;
 }
 
 .send{
